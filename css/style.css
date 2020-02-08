@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@font-face{
+    src:url(../fonts/Merriweather/Merriweather-Regular.ttf);
+    font-family: Merriweadther;
+}
+@font-face{
+    src:url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+@keyframes movecloud1{
+    0%{
+        opacity: 0;
+        transform: translateX(-30vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(15vw) ;
+    }
+}
+@keyframes movecloud2{
+    0%{
+        opacity: 1;
+        transform: translateX(-80vw);
+    }
+      100%{
+        opacity: 1;
+        transform: translateX(80vw) ;
+    }
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    text-align: center;
+}
+.home-header{
+    background: rgb(29, 111, 206);
+    height: 95vh;
+    position: relative;
+    overflow: hidden;
+    padding-top: 5rem;
+}
+.header-title{
+    font-family: Sacramento;
+    font-size: 10rem;
+    color: maroon;
+    text-shadow: 2px 2px 2px black;
+}
+.header-sub{
+    font-family:Merriweadther ;
+    font-size: 3rem;
+    color: rgb(22, 239, 247);
+     text-shadow: -1px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+}
+.cloud1{
+    position: absolute;
+    top:3rem;
+    left: 25rem;
+    animation: movecloud1 5s ease-out  infinite;
+}
+.cloud2{
+    position: absolute;
+    right: 50rem;
+    top: 10rem;
+    animation: movecloud1 5s  ease-out infinite;
+
+}
+.bird{
+ position: absolute;
+    right: 50rem;
+    width:200px;
+    top: 20rem;
+    animation: movecloud2 30s ease-out infinite ;
+}
+.bird1{
+    position: absolute;
+    right: 40rem;
+    width:100px;
+    top: 30rem;
+    animation: movecloud2 30s ease-out infinite ;
+}
+.bird2{
+    position: absolute;
+    right: 40rem;
+    width:100px;
+    top: 15rem;
+    animation: movecloud2 30s ease-out infinite ;
+}
+.tree{
+    position: relative;
+    bottom: -4rem;
+}
+.mountain{
+    position: relative;
+   bottom: -4rem;
+   width: 50%;
+
+}
+.prof{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    bottom: -5rem;
+}
+
+.home-section-intro{
+    background:rgb(79, 201, 218);
+    height: 25vh;
+    padding-top: 5rem;
+}
+.home-section-skills{
+    background:rgb(79, 201, 218);
+    height: 120vh;
+    padding-top: 20rem;
+   
+}
+.browser{
+    width: 18rem;
+    float: left;
+    margin-right: 3rem;
+
+}
+.skills-title-lorem{
+    font-size: 40px;
+}
+.p-tag{
+    font-size: 20px;
+}
+.skills-p-lorem{
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    left:7rem;
+    top: 40px;
+   
+}
+.web{
+    font-size: 30px;
+    position: relative;
+    right:17rem ;
+    top: 28px;
+   
+}
+.skills-article-container{
+    width: 70%;
+    margin: auto;
+    line-height: 3rem;
+
+}
+.astronomy{
+    font-size: 30px;
+    position: relative;
+    right:50rem ;
+    top: 130px;
+}
+.astronomy-p{
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+    right:20rem ;
+    top: 150px;
+   
+}
+.get{
+    font-size: 35px;
+    position: relative;
+    top: 250px; 
+}
+.let{
+    font-size: 25px;
+    position: relative;
+    top: 270px; 
+}
+.let-p{
+    font-size: 20px;
+    position: relative;
+    top: 300px; 
+}
+button{
+    width: 20rem;
+    position: relative;
+    top: 350px; 
+    font-size: 30px;
+    height:5rem;
+    color: beige;
+    border-radius: 5rem;
+    background-color: brown;
+}
+.main-nav{
+    position: relative;
+    
+    }
+    .nav-item{
+        position: relative;
+        margin-left: 90px;
+        font-size: 18px;
+        text-decoration: none;
+        color:maroon;
+        right:8rem;
+        bottom: -1rem;
+    
+    }
+    .name{
+       position: relative;
+       top: 50px;
+        font-size: 25px;
+    }
+
+.home-footer{
+    background:rgb(29, 111, 206);
+    height: 20vh;
+    padding-top: 5rem;
+}
